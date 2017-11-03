@@ -1,0 +1,25 @@
+#certificate-preview-image {
+    width: 100%;
+}
+#certificate-container {
+    position: relative;
+}
+#certificate-text-placement {
+    position: absolute;
+    cursor: move;
+    font: 700 37px/28px Montserrat, sans-serif;
+    text-transform: uppercase;
+    width: 290px;
+    transform-origin: top left;
+}
+#certificate-centering-line,
+.show-centering-lines:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 321px;
+    transform: translate(-50%,-50%);
+    width: 1px;
+    background: #f00;
+}
